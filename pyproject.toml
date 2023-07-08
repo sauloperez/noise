@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "noise"
+version = "0.1.0"
+description = ""
+authors = ["Pau Perez <saulopefa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+googletrans = "^4.0.0rc1"
+tqdm = "^4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
